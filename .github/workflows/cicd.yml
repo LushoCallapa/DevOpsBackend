@@ -63,5 +63,5 @@ jobs:
 
             echo "Restarting PM2 app..."
             pm2 delete backend || true
-            pm2 start dist/main.js --name backend
+            pm2 start dist/src/server.js --name backend
             pm2 save
