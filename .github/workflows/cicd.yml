@@ -32,6 +32,7 @@ jobs:
           source: "./*"
           target: "/home/${{ secrets.EC2_USER }}/backend"
           rm: true
+          debug: true
 
       # 👇 CREAR .env EN EL EC2
       - name: Create .env on EC2
