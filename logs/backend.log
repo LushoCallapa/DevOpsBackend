@@ -1,0 +1,33 @@
+[2025-11-23T22:26:59.400Z] Error de DB al hacer login: test@example.com - 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Luis\Desktop\DevOpsBackend\src\controllers\userController.ts:32:36
+
+  29 if (!email || !password) return res.status(400).json({ error: "Missing fields" });
+  30 
+  31 try {
+→ 32   const user = await prisma.user.findUnique(
+Can't reach database server at `172.31.76.165:5432`
+
+Please make sure your database server is running at `172.31.76.165:5432`.
+[2025-11-23T22:26:59.404Z] Error de DB al hacer login: test@example.com - 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Luis\Desktop\DevOpsBackend\src\controllers\userController.ts:32:36
+
+  29 if (!email || !password) return res.status(400).json({ error: "Missing fields" });
+  30 
+  31 try {
+→ 32   const user = await prisma.user.findUnique(
+Can't reach database server at `172.31.76.165:5432`
+
+Please make sure your database server is running at `172.31.76.165:5432`.
+[2025-11-23T22:26:59.405Z] Error de DB al hacer login: test@example.com - 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Luis\Desktop\DevOpsBackend\src\controllers\userController.ts:32:36
+
+  29 if (!email || !password) return res.status(400).json({ error: "Missing fields" });
+  30 
+  31 try {
+→ 32   const user = await prisma.user.findUnique(
+Can't reach database server at `172.31.76.165:5432`
+
+Please make sure your database server is running at `172.31.76.165:5432`.
