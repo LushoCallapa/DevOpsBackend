@@ -56,7 +56,7 @@ jobs:
             fi
 
             echo "Installing dependencies..."
-            npm install --omit=dev
+            npm install
 
             echo "Building backend..."
             npm run build
