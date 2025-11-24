@@ -34,7 +34,7 @@ jobs:
           rm: false
           debug: true
 
-      # 👇 CREAR .env EN EL EC2
+      # .env EN EL EC2
       - name: Create .env on EC2
         uses: appleboy/ssh-action@v1
         with:

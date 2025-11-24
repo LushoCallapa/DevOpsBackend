@@ -1,5 +1,4 @@
 #!/bin/bash
-#Prueba
 DB_NAME="myappdb"
 DB_USER="adminuser"
 DB_HOST="172.31.76.165"

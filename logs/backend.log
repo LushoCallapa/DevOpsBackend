@@ -1,0 +1,32 @@
+[2025-11-24T00:16:57.090Z] Error de DB al hacer login: jhonatan@gmail.com - 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Jhonatan\Desktop\Jhonatan\DevOps\1erParcialBackend\DevOpsBackend\src\controllers\userController.ts:32:36
+
+  29 if (!email || !password) return res.status(400).json({ error: "Missing fields" });
+  30 
+  31 try {
+→ 32   const user = await prisma.user.findUnique(
+error: Environment variable not found: DATABASE_URL.
+  -->  schema.prisma:7
+   | 
+ 6 |   provider = "postgresql"
+ 7 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[2025-11-24T00:27:54.222Z] Error de DB al hacer login: sd@gmail.com - 
+Invalid `prisma.user.findUnique()` invocation in
+C:\Users\Jhonatan\Desktop\Jhonatan\DevOps\1erParcialBackend\DevOpsBackend\src\controllers\userController.ts:32:36
+
+  29 if (!email || !password) return res.status(400).json({ error: "Missing fields" });
+  30 
+  31 try {
+→ 32   const user = await prisma.user.findUnique(
+error: Environment variable not found: DATABASE_URL.
+  -->  schema.prisma:7
+   | 
+ 6 |   provider = "postgresql"
+ 7 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
